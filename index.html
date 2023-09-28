@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css.css">
+    <script async defer src="./js/fetch.js"></script>
+    <script async defer src="./js/pokemon.js"></script>
+    <title>FETCH</title>
+</head>
+<body>
+    <button id="btn-counter">Counter ++</button>
+    <p id='counter'></p>
+
+    <div class="container">
+
+        <div id="poke" class="card--container">
+            <!-- <h2 id="name"></h2>
+            <h3 id="dimensions"></h3>
+            <h3 id="identifier"></h3> -->
+            <label for="pokemon-input">Introduzca el nombre para obtener carta pokémon</label>
+            <input id="pokemon-input" type="text" name="pokemon-input" value="">
+            <button id="btn">Click aquí</button>
+
+        </div>
+        <div class="container row">
+            <label for="poke-name">Pokemon (Name/ID)</label>
+            <input id="poke-name" type="text" name="poke-name" value="">
+        </div>
+        <div class="container row">
+            <button id="previous-btn" class="btn primary">Previous</button>
+            <button id="get-btn" class="btn primary"> Get Pokemon</button>
+            <button id="next-btn" class="btn primary">Next</button>
+        </div>
+    </div>
+</body>
+</html>
